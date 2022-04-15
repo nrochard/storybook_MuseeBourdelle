@@ -5,21 +5,21 @@
     --bronze-color-focus: #3A2206;
 
     /* Code couleur ORANGE */
-    --bronze-color: #F29A7E;
-    --bronze-color-hover: #FFA285;
-    --bronze-color-focus: #E39076;
+    --orange-color: #F29A7E;
+    --orange-color-hover: #FFA285;
+    --orange-color-focus: #E39076;
 
     /* Code couleur BLANC */
-    --bronze-color: #FFFFFF;
-    --bronze-color-hover: #F7F7F7;
-    --bronze-color-focus: #EDEDED;
+    --white-color: #FFFFFF;
+    --white-color-hover: #F7F7F7;
+    --white-color-focus: #EDEDED;
 
     /* Code couleur RED */
-    --bronze-color: #E15C5C;
+    --red-color: #E15C5C;
 
      /* Code couleur VERT */
-     --bronze-color: #5FE15C;
+     --green-color: #5FE15C;
 
       /* Code couleur BLEU */
-      --bronze-color: #5CA1E1;
+      --blue-color: #5CA1E1;
   }
