@@ -114,16 +114,21 @@ import StackAlt from './assets/stackalt.svg';
   
 `}</style>
 
-# Welcome to Storybook
+# Bienvenue sur Storybook
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+Cet outil nous permet de développer notre propre bibliothèque de composants UI sans nous préoccuper des dépendances de ceux-ci et nous concentrer uniquement sur leur rendu.
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `src/stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+**Bibliothèque de composants** : pour centraliser tous nos composants en un seul endroit avec la possibilité de les tester en isolation
 
-<div className="subheading">Configure</div>
+**Design systems** : pour assembler les composants et produire des templates pour vos pages 
+
+**Test visuel** : pour visualiser le rendu de nos composants ainsi que leur comportement
+
+**Travail en équipe** : pour partager votre Storybook avec notre équipe en l’exportant au format statique
+
+Storybook repose sur un système de stories. Ainsi chaque composant de votre application aura donc une “story” qui correspond à une fonction censée le retourner à l’écran. 
+
+<div className="subheading">Projet</div>
 
 <div className="link-list">
   <a
@@ -133,8 +138,8 @@ We recommend building UIs with a [**component-driven**](https://componentdriven.
   >
     <img src={Plugin} alt="plugin" />
     <span>
-      <strong>Presets for popular tools</strong>
-      Easy setup for TypeScript, SCSS and more.
+      <strong>[JAM] - Musée Bourdelle</strong>
+      Core components, Design Token, Design Language
     </span>
   </a>
   <a
@@ -144,8 +149,8 @@ We recommend building UIs with a [**component-driven**](https://componentdriven.
   >
     <img src={StackAlt} alt="Build" />
     <span>
-      <strong>Build configuration</strong>
-      How to customize webpack and Babel
+      <strong>[LIB] - Musée Bourdelle</strong>
+      Core components, Design Token, Design Language
     </span>
   </a>
   <a
@@ -155,8 +160,8 @@ We recommend building UIs with a [**component-driven**](https://componentdriven.
   >
     <img src={Colors} alt="colors" />
     <span>
-      <strong>Styling</strong>
-      How to load and configure CSS libraries
+      <strong>[PROD] - Musée Bourdelle</strong>
+      Maquette
     </span>
   </a>
   <a
@@ -164,48 +169,10 @@ We recommend building UIs with a [**component-driven**](https://componentdriven.
     href="https://storybook.js.org/docs/react/get-started/setup#configure-storybook-for-your-stack"
     target="_blank"
   >
-    <img src={Flow} alt="flow" />
-    <span>
-      <strong>Data</strong>
-      Providers and mocking for data libraries
-    </span>
-  </a>
-</div>
-
-<div className="subheading">Learn</div>
-
-<div className="link-list">
-  <a className="link-item" href="https://storybook.js.org/docs" target="_blank">
-    <img src={Repo} alt="repo" />
-    <span>
-      <strong>Storybook documentation</strong>
-      Configure, customize, and extend
-    </span>
-  </a>
-  <a className="link-item" href="https://storybook.js.org/tutorials/" target="_blank">
-    <img src={Direction} alt="direction" />
-    <span>
-      <strong>In-depth guides</strong>
-      Best practices from leading teams
-    </span>
-  </a>
-  <a className="link-item" href="https://github.com/storybookjs/storybook" target="_blank">
     <img src={Code} alt="code" />
     <span>
-      <strong>GitHub project</strong>
-      View the source and add issues
+      <strong>[GITHUB] - Musée Bourdelle</strong>
+      Code du projet
     </span>
   </a>
-  <a className="link-item" href="https://discord.gg/storybook" target="_blank">
-    <img src={Comments} alt="comments" />
-    <span>
-      <strong>Discord chat</strong>
-      Chat with maintainers and the community
-    </span>
-  </a>
-</div>
-
-<div className="tip-wrapper">
-  <span className="tip">Tip</span>Edit the Markdown in{' '}
-  <code>src/stories/Introduction.stories.mdx</code>
 </div>

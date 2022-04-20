@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Inter:wght@100&display=swap');
+
+@font-face {
+    font-family: "Futura Bold";
+    src: url("../assets/fonts/FuturaPTBold.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Futura Book";
+    src: url("../assets/fonts/FuturaPTBook.otf") format("otf");
+}
+
 :root {
     /* Code couleur BRONZE */
     --bronze-color: #231403;
@@ -22,4 +34,8 @@
 
       /* Code couleur BLEU */
       --blue-color: #5CA1E1;
-  }
+}
+
+.bold{
+    font-weight: bold;
+}

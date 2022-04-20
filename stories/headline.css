@@ -1,0 +1,56 @@
+.storybook-hl--h1,
+.storybook-hl--h2,
+.storybook-hl--h3,
+.storybook-hl--h4,
+.storybook-hl--h5
+{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: var(--bronze-color);
+}
+
+  .storybook-hl--h1 {
+    font-size: 3.052rem;
+  }
+
+  .storybook-hl--h2 {
+    font-size: 2.441rem;
+  }
+  .storybook-hl--h3 {
+    font-size: 1.953rem;
+  }
+  .storybook-hl--h4 {
+    font-size: 1.563rem;
+  }
+  .storybook-hl--h5 {
+    font-size: 1.25rem;
+  }
+
+  .storybook-hl--text1,
+  .storybook-hl--text2,
+  .storybook-hl--text3,
+  .storybook-hl--text4,
+  .storybook-hl--text4{
+    color: var(--bronze-color);
+    font-size: "Futura Book", serif;
+  }
+
+  .storybook-hl--text1 {
+    font-size: 1.932rem;
+  }
+
+  .storybook-hl--text2 {
+    font-size: 1.563rem;
+  }
+
+  .storybook-hl--text3 {
+    font-size: 1.25rem;
+  }
+
+  .storybook-hl--text4{
+    font-size: 1rem;
+  }
+
+  .storybook-hl--text5 {
+    font-size: 0.8rem;
+  }
