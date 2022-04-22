@@ -2,7 +2,7 @@ import { createHeadline } from './Headline';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Headline',
+  title: 'Tokens/Headline',
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
     label: { control: 'text' },

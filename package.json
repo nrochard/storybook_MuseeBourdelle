@@ -26,5 +26,7 @@
     "@storybook/html": "^6.4.22",
     "babel-loader": "^8.2.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "storybook-design-token": "^2.1.0"
+  }
 }
