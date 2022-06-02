@@ -30,9 +30,10 @@
   .storybook-hl--text2,
   .storybook-hl--text3,
   .storybook-hl--text4,
-  .storybook-hl--text4{
+  .storybook-hl--text4,
+  .storybook-hl--text5{
     color: var(--bronze-color);
-    font-size: "Futura Book", serif;
+    font-family: futura-pt, sans-serif;
   }
 
   .storybook-hl--text1 {
