@@ -1,7 +1,7 @@
 import { createHeader } from './Header';
 
 export default {
-  title: 'Example/Header',
+  title: 'Components/Header',
   argTypes: {
     onLogin: { action: 'onLogin' },
     onLogout: { action: 'onLogout' },
