@@ -1,8 +1,7 @@
 import './header.css';
-import { createButton } from './Button';
 
-export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }) => {
-  const header = document.createElement('header');
+export const createFooter = ({ user, onLogout, onLogin, onCreateAccount }) => {
+  const footer = document.createElement('footer');
 
   const wrapper = document.createElement('div');
   wrapper.className = 'wrapper';
@@ -54,7 +53,7 @@ export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }) => {
 
   wrapper.insertAdjacentHTML('afterbegin', logo);
 
-  header.appendChild(wrapper);
+  footer.appendChild(wrapper);
 
-  return header;
+  return footer;
 };

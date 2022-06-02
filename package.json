@@ -24,7 +24,8 @@
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-links": "^6.4.22",
     "@storybook/html": "^6.4.22",
-    "babel-loader": "^8.2.4"
+    "babel-loader": "^8.2.4",
+    "chromatic": "^6.6.0-next.4"
   },
   "dependencies": {
     "storybook-design-token": "^2.1.0"
