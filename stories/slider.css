@@ -1,81 +1,37 @@
-footer {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--bronze-color);
+.pstn{
     position: relative;
-  }
-
-.flex-footer{
-    justify-content: space-around;
-    display: flex;
 }
-.padd-footer{   
-    padding: 99px 80px 37px 80px;
-}
-.rectangle{
+.slider .content{
     position: absolute;
-    left: 0;
-    top: 0;
+    top: 60%;
+    padding: 0px 90px
 }
-.btn{
-    padding-top: 69px;
-}
-.outline{
-    border-radius: 99px;
-    color:#F29A7E;
-    padding: 12px 36px;
-    border: 1px solid #F29A7E;
-    font-family: 'Jost';
+.slider .text{
+    font-family: 'Futura PT';
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 25px;
-    line-height: 23px;
-    background-color: transparent;
-}
-.filled{
-    background: #F29A7E;
-    border-radius: 99px;
-    color:white;
-    border: 1px solid #F29A7E;
-    padding: 12px 36px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 23px;
-}
-.circle{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-.subtitle{
-    font-family: futura-pt, sans-serif;
-    color: white;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+    color: #FFFFFF;
 }
-.title{
+.slider .subtitle{
     font-family: 'Arvo';
-    color: white;
     font-style: normal;
     font-weight: 700;
+    text-transform: uppercase;
+    font-size: 31.25px;
+    line-height: 39px;
+    color: white;
+}
+.slider .title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 24px;
+    color: white;
 }
-.flex-social{
+.slider .flex-text{
     display: flex;
-    justify-content: space-between;
-}
-.btm-footer{
-    margin: auto;
-    padding-top: 55px;
-    padding-bottom: 47px;
-}
-.info{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
 }
